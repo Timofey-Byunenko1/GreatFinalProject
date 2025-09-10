@@ -1,0 +1,233 @@
+@use "./base.scss" as * ;
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+
+h1{
+    font-size: 38px;
+    line-height: 46px;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 36px;
+}
+
+h3{
+    font-size: 22px;
+    line-height: 26px;
+}
+
+h4{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h5{
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+.link{
+    font-size: 16px;
+    line-height: 20px;
+    color: $blue;
+
+    &:hover{
+        color: $Accent;
+    }
+
+
+    &:active{
+        color: $blue-active;
+    }
+}
+
+
+.homepage-main{
+ width: 100%;
+height: 2118px;
+background: $gradient;
+}
+
+
+.homapage-app{
+
+
+     display: flex;
+
+justify-content: space-between;
+
+    padding: 50px;
+    padding-top: 30px;
+    z-index: 2;
+}
+
+.btn{
+    border-radius: 40%;
+    padding-top: 10px;
+    width: 33px;
+    height: 25px;
+    background-color:#323264 ;
+    color: #FFFFFF;
+    cursor: pointer;
+
+
+    &:hover{
+        background-color: $Accent;
+    }
+}
+
+
+.right-h4{
+    color: #FFFFFF;
+    margin: 5px;
+}
+
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+}
+
+.homapage-app_right{
+    display: flex;
+    flex-direction: column;
+}
+
+.svg{
+    margin: 5px;
+}
+
+
+.div-fon{
+    display: flex;
+    justify-content: center;
+}
+
+.fon{
+    width: 697px ;
+    height:799px ;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+
+}
+
+
+.ul-homapage{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+
+.li{
+      justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 8px;
+  color: #FFFFFF;
+   height: 20px;
+    font-size: 16px;
+        padding-bottom: 5px;
+        border-bottom: 3px solid transparent;
+        position: relative;
+        padding-bottom: 5px;
+        text-align: left;
+
+        &:hover{
+            border-color: $Accent;
+            color: $Accent;
+
+}
+}
+
+
+
+.h1iii{
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+.page_knopka{
+  display: flex;
+  justify-content: center;
+  margin-top: 380px;
+}
+
+
+.homepage-main_main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.main-left{
+    margin-right: 55px;
+    
+
+}
+
+.main-right{
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.h1-gradient{
+ color: #F0145A ;
+ text-align: right;
+}
+
+
+.main-left-h1{
+    color: $grey-text;
+    margin-top: 10px;
+    text-align: right;
+}
+
+
+.main-right-h1{
+    color: $white;
+    margin-top: 40px;
+}
+
+.main-right-p{
+    color: $white;
+    margin-top: 20px;
+    
+}
+
+
+.homa-main-daun-h{
+    color: #0b0b93;
+}
+
+
+.main-daun-h{
+    color: $blue;
+}
