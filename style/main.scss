@@ -31,7 +31,7 @@ h4{
 h5{
     font-size: 14px;
     line-height: 18px;
-    text-transform: uppercase;
+
 }
 
 p{
@@ -58,7 +58,7 @@ p{
 
 .homepage-main{
  width: 100%;
-height: 2118px;
+height: 2018px;
 background: $gradient;
 }
 
@@ -87,6 +87,16 @@ justify-content: space-between;
 
     &:hover{
         background-color: $Accent;
+    }
+}
+
+
+
+.div-hi{
+    
+    .h1iii{
+        position: relative;
+        text-align: center;
     }
 }
 
@@ -139,7 +149,7 @@ justify-content: space-between;
 .li{
       justify-content: space-between;
   margin-right: 20px;
-  margin-left: 8px;
+  
   color: #FFFFFF;
    height: 20px;
     font-size: 16px;
@@ -220,13 +230,284 @@ justify-content: space-between;
 }
 
 
+.homapage-main_daun{
+    margin-top: 50px;
+    padding:10px 40px;
+}
+
+
 .homa-main-daun-h{
-    color: #0b0b93;
-    margin-left: 300px;
+    color:$Accent;
+    margin-top: 10px;
+}
+
+.div-link{
+    padding-left: 40px;
 }
 
 
 .main-daun-h{
     color: $blue;
 }
+
+.white{
+    color: $white;
+}
+
+.heidth-svg{
+    height: 100px;
+}
+
+.main-doun-div{
+    max-width: 390px;
+    height: 321px;
+    margin-top: 50px;
+    padding: 16px;
+}
+
+
+
+.home-main-daun-div{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-around;
+    max-width: 1700px;
+    
+}
+
+
+
+.svg-plant{
+    width: 98%;
+    height: 50px;
+}
+
+
+
+
+
+.h1-daun{
+    color: $Accent;
+    width: 95%;
+    margin-bottom: 15px;
+}
+
+
+
+.svg-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.h4-daun{
+    color: $grey-text;
+}
+
+
+.img-width{
+  max-width: 400px;
+    height: 268px;
+}
+
+
+
+.color{
+    background-color:$grey ;
+    display: flex;
+    max-width: 1300px;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+
+
+.div-daun{
+    padding: 20px 20px;
+}
+
+
+
+
+
+.svg{
+    display: flex;
+    justify-content: center;
+}
+
+
+.h4-daun-daun{
+    color: $main-gradient;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.heidth-svg-ziro{
+display: flex;
+justify-content: center;
+height: 65px;
+width: 80px;
+}
+
+
+
+
+
+.daun-section-div{
+    width: 430px;
+    height: 120px;
+}
+
+.width_daun-div{
+   width: 360px ;
+    height: 120px;
+}
+
+
+.a{
+background-color: #1D4568;    
+}
+
+.b{
+    background-color: #143646;
+}
+
+
+.v{
+    background-color:#F48B30 ;
+}
+
+
+.g{
+    background-color:#9E4DC3 ;
+}
+
+
+.d{
+    background-color:#FD9339 ;
+}
+
+
+.w{
+    background-color: #E2E2E4;
+}
+
+
+.k{
+    background-color:#C71C36 ;
+}
+
+
+.p{
+    background-color:#DCF3F9 ;
+
+}
+
+
+.q{
+    background-color:#EAEAEA ;
+}
+
+
+
+.u{
+    background-color: #282240;
+}
+
+
+.l{
+    background-color:#1D4568 ;
+}
+
+
+.m{
+    background-color:#000000 ;
+}
+
+
+.img-width-daun{
+padding: 30px 70px 10px;
+height: auto;
+
+}
+
+
+
+
+
+.daun-div-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+.div-daun_daun{
+    width:100%;
+    height:563px ;
+    background-color: $grey;
+}
+
+
+
+
+.div-daun_alex{
+    background-color: $white;
+    width: 420px;
+    height: 450px;
+}
+
+
+
+
+.alex-img{
+    width: 420px;
+    border-radius: 15px;
+
+}
+
+
+
+
+
+.grey{
+    color: $grey-text;
+    margin-bottom: 20px;
+}
+
+
+.div-publication{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.div-flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+.pading{
+    padding: 20px;
+}
+
+
+
 
