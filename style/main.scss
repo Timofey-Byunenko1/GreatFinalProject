@@ -42,6 +42,7 @@ p{
 
 .link{
     font-size: 16px;
+    list-style: none;
     line-height: 20px;
     color: $blue;
 
@@ -120,6 +121,7 @@ justify-content: space-between;
 
 .svg{
     margin: 5px;
+    margin-top: 12px;
 }
 
 
@@ -148,7 +150,7 @@ justify-content: space-between;
 
 .li{
       justify-content: space-between;
-  margin-right: 20px;
+  margin-left: 20px;
   
   color: #FFFFFF;
    height: 20px;
@@ -171,7 +173,7 @@ justify-content: space-between;
 .h1iii{
     text-align: center;
     color: #FFFFFF;
-    z-index: 3;
+    margin-top: 65px;
 
 
 }
@@ -200,7 +202,7 @@ justify-content: space-between;
 }
 
 .main-right{
-    width: 600px;
+    width: 35%;
     justify-content: center;
     align-items: center;
 }
@@ -235,6 +237,9 @@ justify-content: space-between;
     padding:10px 40px;
 }
 
+.hom-a{
+    margin-right: 480px;
+}
 
 .homa-main-daun-h{
     color:$Accent;
@@ -242,7 +247,10 @@ justify-content: space-between;
 }
 
 .div-link{
-    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 680px;
 }
 
 
@@ -270,7 +278,7 @@ justify-content: space-between;
 .home-main-daun-div{
     display: flex;
     flex-wrap: wrap;
-justify-content: space-around;
+justify-content: center;
     max-width: 1700px;
     
 }
@@ -316,9 +324,10 @@ justify-content: space-around;
 .color{
     background-color:$grey ;
     display: flex;
-    max-width: 1300px;
+    max-width: 1800px;
     justify-content: center;
     margin-left: 100px;
+    margin-right: 70px;
 }
 
 
@@ -363,6 +372,9 @@ width: 80px;
 }
 
 .width_daun-div{
+        display: flex;
+    justify-content: center;
+    align-items: center;
    width: 360px ;
     height: 120px;
 }
@@ -430,7 +442,7 @@ background-color: #1D4568;
 
 
 .img-width-daun{
-padding: 30px 70px 10px;
+
 height: auto;
 
 }
@@ -449,15 +461,17 @@ height: auto;
 
 
 
-
-
-
-.div-daun_daun{
+.section-daun_daun{
     width:100%;
-    height:563px ;
+    height:763px ;
     background-color: $grey;
 }
 
+
+.div-daun-daun{
+    padding: 25px;
+    width: auto;
+}
 
 
 
@@ -465,6 +479,7 @@ height: auto;
     background-color: $white;
     width: 420px;
     height: 450px;
+    margin: 15px;
 }
 
 
@@ -489,19 +504,27 @@ height: auto;
 .div-publication{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    margin-right: 900px;
     
 }
 
 
+.text-width{
+    margin-right: 300px;
+}
+
 .div-flex{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 
 
-
+.svg-plant{
+    width: 100%;
+}
 
 
 .pading{
@@ -511,3 +534,55 @@ height: auto;
 
 
 
+.text-header{
+    color: $blue;
+    margin-right: 790px;
+    margin-top: 3px;
+}
+
+
+
+.heidth-svg-ziro-footer{
+    height: 8px;
+    width: 17px;
+    margin-left: 5px;
+}
+
+
+
+.h4-header{
+    color: $main-gradient;
+}
+
+
+.div-header{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.svg-div-none{
+    display: flex;
+    justify-content: center;
+    margin-left: 65px;
+    height: 30px;
+
+}
+
+
+.heidth-svg-ziro-facebook{
+    height: 45px;
+    width: 45px;
+    
+}
+
+
+
+
+
+.div-header-daun{
+    display: flex;
+    justify-content:center;
+    margin-right: 980px;
+}
