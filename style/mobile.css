@@ -75,6 +75,9 @@
   .div-header-daun {
     margin-right: 280px;
   }
+  .navigation {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=mobile.css.map */
