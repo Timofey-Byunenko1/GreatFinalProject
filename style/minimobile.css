@@ -35,6 +35,7 @@
   }
   .div-link {
     margin-right: 5px;
+    text-align: left;
   }
   .img-width {
     width: 315px;
@@ -50,7 +51,9 @@
     margin-right: 5px;
   }
   .text-header {
-    margin-right: 100px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .daun-div-img {
     margin-left: 10px;
@@ -88,6 +91,9 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+  }
+  .page_knopka {
+    position: relative;
   }
 }
 

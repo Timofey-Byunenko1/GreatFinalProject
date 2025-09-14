@@ -1,0 +1,15 @@
+     @font-face {
+  font-family: 'CeraPro';
+  src: url('./fonts/Montserrat-Bold.ttf') format('ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('./fonts/Montserrat-Regular.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+

@@ -80,6 +80,7 @@ p {
 }
 
 .right-h4 {
+  font-family: "Montserrat";
   color: #FFFFFF;
   margin: 5px;
   font-weight: 400;
@@ -94,6 +95,7 @@ p {
 .homapage-app_right {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .svg {
@@ -139,6 +141,7 @@ p {
 }
 
 .h1iii {
+  font-family: "Montserrat";
   text-align: center;
   color: #FFFFFF;
   margin-top: 65px;
@@ -172,6 +175,7 @@ p {
 }
 
 .main-left-h1 {
+  font-family: "Montserrat";
   color: #B3B3BA;
   margin-top: 10px;
   text-align: right;
@@ -182,6 +186,7 @@ p {
 }
 
 .main-right-h1 {
+  font-family: "Montserrat";
   color: #FFFFFF;
   margin-top: 40px;
 }
@@ -201,6 +206,7 @@ p {
 }
 
 .homa-main-daun-h {
+  font-family: "Montserrat";
   color: #F0145A;
   margin-top: 10px;
 }

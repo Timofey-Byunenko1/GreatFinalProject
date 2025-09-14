@@ -103,6 +103,7 @@ justify-content: space-between;
 
 
 .right-h4{
+    font-family: 'Montserrat';
     color: #FFFFFF;
     margin: 5px;
     font-weight: 400;
@@ -110,14 +111,15 @@ justify-content: space-between;
 
 
 .navigation{
-    display: flex;
+    @include flex-mixin;
     flex-wrap: wrap;
     height: 50px;
 }
 
 .homapage-app_right{
-    display: flex;
+    @include flex-mixin;
     flex-direction: column;
+    position: relative;
 }
 
 .svg{
@@ -127,7 +129,7 @@ justify-content: space-between;
 
 
 .div-fon{
-    display: flex;
+    @include flex-mixin;
     justify-content: center;
 }
 
@@ -135,7 +137,7 @@ justify-content: space-between;
     width: 697px ;
     height:799px ;
     position: absolute;
-    display: flex;
+    @include flex-mixin;
     justify-content: center;
     object-fit: contain;
 
@@ -143,7 +145,7 @@ justify-content: space-between;
 
 
 .ul-homapage{
-    display: flex;
+    @include flex-mixin;
     justify-content: flex-end;
     list-style: none;
 }
@@ -172,6 +174,8 @@ justify-content: space-between;
 
 
 .h1iii{
+ font-family: 'Montserrat';
+
     text-align: center;
     color: #FFFFFF;
     margin-top: 65px;
@@ -184,14 +188,14 @@ justify-content: space-between;
 
 
 .page_knopka{
-  display: flex;
+  @include flex-mixin;
   justify-content: center;
   margin-top: 380px;
 }
 
 
 .homepage-main_main{
-    display: flex;
+    @include flex-mixin;
     justify-content: center;
     margin-top: 50px;
 }
@@ -216,6 +220,8 @@ justify-content: space-between;
 
 
 .main-left-h1{
+ font-family: 'Montserrat';
+
     color: $grey-text;
     margin-top: 10px;
     text-align: right;
@@ -228,6 +234,8 @@ justify-content: space-between;
 
 
 .main-right-h1{
+ font-family: 'Montserrat';
+
     color: $white;
     margin-top: 40px;
 }
@@ -248,12 +256,14 @@ justify-content: space-between;
 }
 
 .homa-main-daun-h{
+ font-family: 'Montserrat';
+
     color:$Accent;
     margin-top: 10px;
 }
 
 .div-link{
-    display: flex;
+    @include flex-mixin;
     flex-direction: column;
     text-align: center;
     margin-right: 680px;
@@ -284,7 +294,7 @@ justify-content: space-between;
 
 
 .home-main-daun-div{
-    display: flex;
+    @include flex-mixin;
     flex-wrap: wrap;
 justify-content: center;
     
@@ -310,7 +320,7 @@ justify-content: center;
 
 
 .svg-div{
-    display: flex;
+    @include flex-mixin;
     justify-content: center;
     margin-top: 20px;
 }
@@ -330,7 +340,7 @@ justify-content: center;
 
 .color{
     background-color:$grey ;
-    display: flex;
+    @include flex-mixin;
     max-width: 1800px;
     justify-content: center;
     margin-left: 100px;
@@ -348,7 +358,7 @@ justify-content: center;
 
 
 .svg{
-    display: flex;
+    @include flex-mixin;
     justify-content: center;
 }
 
@@ -363,7 +373,7 @@ justify-content: center;
 
 
 .heidth-svg-ziro{
-display: flex;
+@include flex-mixin;
 justify-content: center;
 height: 65px;
 width: 80px;
@@ -379,7 +389,7 @@ width: 80px;
 }
 
 .width_daun-div{
-        display: flex;
+        @include flex-mixin;
     justify-content: center;
     align-items: center;
    width: 360px ;
@@ -459,7 +469,7 @@ height: auto;
 
 
 .daun-div-img{
-    display: flex;
+    @include flex-mixin;
     flex-wrap: wrap;
     justify-content: center;
     background-size: cover;
@@ -515,7 +525,7 @@ height: auto;
 
 
 .div-publication{
-    display: flex;
+    @include flex-mixin;
     flex-direction: column;
     text-align: center;
     margin-right: 900px;
@@ -528,7 +538,7 @@ height: auto;
 }
 
 .div-flex{
-    display: flex;
+    @include flex-mixin;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -569,14 +579,14 @@ height: auto;
 
 
 .div-header{
-    display: flex;
+    @include flex-mixin;
     justify-content: center;
 }
 
 
 
 .svg-div-none{
-    display: flex;
+    @include flex-mixin;
     justify-content: center;
     margin-left: 65px;
     height: 30px;
@@ -595,7 +605,7 @@ height: auto;
 
 
 .div-header-daun{
-    display: flex;
+    @include flex-mixin;
     justify-content:center;
     margin-right: 980px;
 }
