@@ -1,0 +1,19 @@
+@media screen and (min-width: 1700px) and (max-width: 1980px) {
+  .homapage-app {
+    padding: 50px 150px;
+  }
+  .h1iii {
+    margin-top: 80px;
+  }
+  .main-doun-div {
+    width: 492px;
+  }
+  .div-link {
+    margin-right: 950px;
+  }
+  .width_daun-div {
+    width: 430px;
+  }
+}
+
+/*# sourceMappingURL=dekstop-hd.css.map */

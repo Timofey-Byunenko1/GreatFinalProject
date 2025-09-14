@@ -214,6 +214,8 @@ p {
 
 .main-daun-h {
   color: #24A3FF;
+  margin-bottom: 20px;
+  margin-top: 5px;
 }
 
 .white {
@@ -225,7 +227,7 @@ p {
 }
 
 .main-doun-div {
-  max-width: 390px;
+  width: 390px;
   height: 321px;
   margin-top: 50px;
   padding: 16px;
@@ -235,7 +237,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1700px;
 }
 
 .svg-plant {

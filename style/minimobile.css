@@ -1,0 +1,94 @@
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .ul-homapage {
+    display: none;
+  }
+  .right-h4 {
+    display: none;
+  }
+  .svg-fase {
+    display: none;
+  }
+  .fon {
+    width: 600px;
+    height: 800px;
+    margin-right: 190px;
+  }
+  .alex-img {
+    width: 315px;
+  }
+  .alex-img-tri {
+    width: 315px;
+  }
+  .logo {
+    width: 180px;
+    position: relative;
+  }
+  .homepage-main_main {
+    flex-direction: column;
+  }
+  .main-right {
+    width: 95%;
+    margin-left: 10px;
+  }
+  .hom-a {
+    margin-right: 150px;
+  }
+  .div-link {
+    margin-right: 5px;
+  }
+  .img-width {
+    width: 315px;
+    height: 500px;
+  }
+  .color {
+    flex-direction: column;
+    width: 315px;
+    margin-left: 40px;
+    margin-right: 50px;
+  }
+  .div-publication {
+    margin-right: 5px;
+  }
+  .text-header {
+    margin-right: 100px;
+  }
+  .daun-div-img {
+    margin-left: 10px;
+  }
+  .k {
+    display: none;
+  }
+  .p {
+    display: none;
+  }
+  .q {
+    display: none;
+  }
+  .u {
+    display: none;
+  }
+  .l {
+    display: none;
+  }
+  .m {
+    display: none;
+  }
+  .div-daun_alex {
+    height: 514px;
+  }
+  .div-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .div-header-daun {
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=minimobile.css.map */

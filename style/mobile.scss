@@ -1,4 +1,4 @@
- @media screen and (min-width: 360px) and (max-width: 768px)  {
+ @media screen and (min-width: 600px) and (max-width: 768px)  {
 
 
 .width_daun-div{
@@ -48,7 +48,7 @@ display: flex;
 
 
 .main-right{
-    width: 75%;
+    width: 65%;
     margin-left: 50px;
 }
 
@@ -61,8 +61,12 @@ display: flex;
     margin-left: 70px;
 }
 
+.div-fon{
+    justify-content: flex-start;
+}
+
 .img-width{
-    width: 645px;
+    width: 630px;
     height: 500px;
 }
 
@@ -83,6 +87,11 @@ display: flex;
     width: 309px;
 }
 
+.alex-img-tri{
+    width: 648px;
+    height: 200px;
+}
+
 .div-daun_alex-tri{
     width: 648px;
     height: 388px;
@@ -90,5 +99,10 @@ display: flex;
 
 .text-header{
     margin-right: 100px;
+}
+
+
+.div-header-daun{
+    margin-right: 280px;
 }
 }

@@ -1,4 +1,4 @@
-@media screen and (min-width: 360px) and (max-width: 768px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
   .width_daun-div {
     width: 250px !important;
   }
@@ -31,7 +31,7 @@
     margin-right: 20px;
   }
   .main-right {
-    width: 75%;
+    width: 65%;
     margin-left: 50px;
   }
   .main-doun-div {
@@ -41,8 +41,11 @@
     flex-direction: column;
     margin-left: 70px;
   }
+  .div-fon {
+    justify-content: flex-start;
+  }
   .img-width {
-    width: 645px;
+    width: 630px;
     height: 500px;
   }
   .div-link {
@@ -58,12 +61,19 @@
   .alex-img {
     width: 309px;
   }
+  .alex-img-tri {
+    width: 648px;
+    height: 200px;
+  }
   .div-daun_alex-tri {
     width: 648px;
     height: 388px;
   }
   .text-header {
     margin-right: 100px;
+  }
+  .div-header-daun {
+    margin-right: 280px;
   }
 }
 
