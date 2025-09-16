@@ -284,6 +284,10 @@ p {
   padding: 20px 20px;
 }
 
+.alex-img-tri {
+  width: 420px;
+}
+
 .svg {
   display: flex;
   justify-content: center;

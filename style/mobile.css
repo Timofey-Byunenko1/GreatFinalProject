@@ -6,7 +6,7 @@
     display: inline;
   }
   .ul-homapage {
-    justify-content: flex-start;
+    display: none;
   }
   .logo {
     margin-left: 35px;
