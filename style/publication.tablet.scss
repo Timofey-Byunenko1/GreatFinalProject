@@ -1,0 +1,52 @@
+@media screen and (min-width: 380px) and (max-width: 768px) {
+
+.logo{
+    width: 500px;
+}
+
+.homapage-app{
+    flex-direction: column-reverse;
+    height: auto;
+
+}
+
+.ul-homapage{
+    display: none;
+}
+
+
+.div-daun_alex{
+    width: 309px;
+    height: 514px;
+}
+
+
+.alex-img{
+    width: 309px;
+    height: 200px;
+}
+
+.svg-width{
+    width: 100%;
+}
+
+
+.text-header{
+    margin-right: 200px;
+}
+
+
+.div-header{
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-header-daun{
+    margin-right: 200px;
+    margin-top: 25px;
+}
+
+.h4-header{
+    margin-top: 20px;
+}
+}
