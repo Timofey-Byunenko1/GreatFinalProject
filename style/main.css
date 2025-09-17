@@ -477,4 +477,12 @@ p {
   margin-right: 980px;
 }
 
+.mobile-burger {
+  display: none;
+}
+
+.mobile-nav {
+  display: none;
+}
+
 /*# sourceMappingURL=main.css.map */

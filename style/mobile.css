@@ -79,5 +79,65 @@
     display: none;
   }
 }
+.mobile-burger {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#burger-checkbox:checked ~ .mobile-nav {
+  border-radius: 10px;
+  display: block;
+}
+
+.mobile-nav {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  width: 375px;
+  z-index: 5;
+  margin: 8px;
+  padding: 16px;
+  background: white;
+}
+.mobile-nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.close-icon {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.link-icon {
+  background-color: #F5F5FA;
+  font-size: 22px;
+  list-style: none;
+  line-height: 20px;
+  color: #24A3FF;
+}
+.link-icon:hover {
+  color: #F0145A;
+}
+
+.burger-icon {
+  z-index: 1;
+}
+
+#close-checkbox:checked ~ .mobile-nav {
+  display: none;
+}
+
+#burger-checkbox:checked ~ .overlay {
+  position: fixed;
+  display: block;
+  inset: 0;
+  z-index: 1;
+  background: #323264;
+}
 
 /*# sourceMappingURL=mobile.css.map */
