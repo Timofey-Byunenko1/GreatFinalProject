@@ -153,4 +153,12 @@
   background: #323264;
 }
 
+.wraper {
+  flex-direction: column;
+}
+
+.slider-wrapper {
+  width: 315px;
+}
+
 /*# sourceMappingURL=minimobile.css.map */

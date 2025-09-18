@@ -10,6 +10,17 @@
 <link rel="stylesheet" media="screen and (min-width: 1700px) and (max-width: 1996px)" href="./style/dekstop-hd.css">  
 <link rel="stylesheet"media="screen and (min-width: 769px) and (max-width: 1200px)" href="./style/tablet.css">
 <link rel="stylesheet" media="screen and (min-width: 300px) and (max-width: 600px)" href="./style/minimobile.css">
+
+<link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
 <title>Document</title>
 </head>
 <body>
@@ -288,19 +299,32 @@
 <h5 class="h4-daun">Керуючий партнер</h5>
   </div>
 
-
-
-
+ 
 
 </div>
 
 
-<div class="svg-div">
-<svg class="heidth-svg-ziro">
-<use xlink:href="./sprite.svg#krygi"/>
-</svg>
+<div class="slider-wrapper">
+
+<div class="wraper">
+
+    <div>
+<img class="img-width" src="./images/yrod.png" alt="png">
+    </div>
+      <div class="div-daun">
+<h3 class="main-daun-h">команда  <svg  width="42px" height="10px"><use xlink:href="./sprite.svg#strelka"/></svg></h3>
+<h1 class="h1-daun">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</h4>
+<h4 class="h4-daun">Олександр Олександровський</h4>
+<h5 class="h4-daun">Керуючий партнер</h5>
+  </div>
+
 </div>
 
+<div>2</div>
+
+<div>3</div>
+
+</div>
 
 
 
@@ -454,5 +478,31 @@
 </section>
 
 </section>
+
+<script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+<script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+
+<script type="text/javascript">
+      $(document).ready(function () {
+        //init slider
+        $(".slider-wrapper").slick({
+          dots: true,
+          arrows: false,
+          slidesToScroll: 1,
+          slidesToShow: 1,
+          mobileFirst: true,
+        });
+    });
+    </script>
+
 </body>
 </html>
