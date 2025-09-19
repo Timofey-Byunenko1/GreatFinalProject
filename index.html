@@ -11,6 +11,9 @@
 <link rel="stylesheet"media="screen and (min-width: 769px) and (max-width: 1200px)" href="./style/tablet.css">
 <link rel="stylesheet" media="screen and (min-width: 300px) and (max-width: 600px)" href="./style/minimobile.css">
 
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 <link
       rel="stylesheet"
       type="text/css"
@@ -43,7 +46,7 @@
 
 <div>
 
-<svg class="logo">
+<svg class="logo animate__animated animate__rubberBand">
 <use xlink:href="./sprite.svg#logo" />
 </svg>
 </div>
@@ -155,7 +158,7 @@
 
 <div class="div-hi">
 
-<h1 class="h1iii">you legal solutions provider</h1>
+<h1 class="h1iii animate__animated animate__bounce">you legal solutions provider</h1>
 
 </div>
 
@@ -200,6 +203,11 @@
 <p class="main-right-p">Consolidating many years of experience and practice, the company's lawyers accompany complex projects and achieve a number of important decisions for the industry. Many of them form the practice of applying the law of the sea in Ukraine.</p>
 
 </div>
+
+
+
+
+
 
 </section>
 
@@ -291,7 +299,7 @@
 <div class="wraper">
 
     <div>
-<img class="img-width" src="./images/yrod.png" alt="png">
+<img class="img-width" data-lazy="./images/yrod.png"  alt="png">
     </div>
       <div class="div-daun">
 <h3 class="main-daun-h">команда  <svg  width="42px" height="10px"><use xlink:href="./sprite.svg#strelka"/></svg></h3>
@@ -305,7 +313,7 @@
 <div class="wraper">  
 
      <div>
-<img class="img-width" src="./images/yrod2.png" alt="png">
+<img class="img-width" data-lazy="./images/yrod2.png" alt="png">
     </div>
       <div class="div-daun">
 <h3 class="main-daun-h">команда  <svg  width="42px" height="10px"><use xlink:href="./sprite.svg#strelka"/></svg></h3>
@@ -318,13 +326,13 @@
 <div class="wraper">  
     
     <div>
-<img class="img-width" src="./images/yrod3.png" alt="png">
+<img class="img-width" data-lazy="./images/yrod3.png"  alt="png">
     </div>
       <div class="div-daun">
 <h3 class="main-daun-h">команда  <svg  width="42px" height="10px"><use xlink:href="./sprite.svg#strelka"/></svg></h3>
 <h1 class="h1-daun">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</h4>
 <h4 class="h4-daun">Sergey Binn</h4>
-<h5 class="h4-daun">Керуючий партнер</h5>
+<h5 class="h4-daun">Equity partner, Attorney-at-law</h5>
   </div>
 </div>
 
@@ -402,7 +410,7 @@
     <h4 class="main-daun-h">Equity associate</h4>
     <h5 class="grey">April 22</h5>
 
-<svg height="20px">
+<svg class="svg-daun" height="20px">
 <use xlink:href="./sprite.svg#linia">
 </svg>
 
@@ -422,7 +430,7 @@
      <h4 class="main-daun-h">Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR</h4>
      <h5 class="grey">September 29</h5>
 
-     <svg height="20px">
+     <svg class="svg-daun" height="20px">
 <use xlink:href="./sprite.svg#linia">
 </svg>
 
@@ -439,7 +447,7 @@
      <h4 class="main-daun-h">Millennial Testament</h4>
      <h5 class="grey">August 19</h5>
 
-     <svg height="20px">
+     <svg class="svg-daun" height="20px">
 <use xlink:href="./sprite.svg#linia">
 </svg>
 
@@ -479,10 +487,33 @@
 </div>
 
 </div>
+
+ 
 </section>
 
 </section>
 
+<script src="https://cdn.jsdelivr.net/npm/@simondmc/popup-js@1.4.3/popup.min.js"></script>
+<script>
+const myPopup = new Popup({
+      id: "my-popup",
+      title: "не работает!",
+      content: `
+        просим прощения.
+        данная функция в разроботке.`,
+    });
+    
+    const buttons = document.querySelectorAll('.btn')
+    
+    buttons.forEach((el, index) => {
+      el.addEventListener('click', () => {
+        
+        myPopup.show();
+        
+        
+      });
+    })
+</script>
 <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
@@ -507,6 +538,7 @@
         });
     });
     </script>
+
 
 </body>
 </html>

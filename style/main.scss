@@ -178,7 +178,7 @@ justify-content: space-between;
 
     text-align: center;
     color: #FFFFFF;
-    margin-top: 65px;
+    margin-top: 95px;
 
 
 }
@@ -197,7 +197,7 @@ justify-content: space-between;
 .homepage-main_main{
     @include flex-mixin;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
 .homapage-daun{
@@ -339,7 +339,7 @@ justify-content: center;
 
 .img-width{
   width: 400px;
-    height: 268px;
+    height: 300px;
 }
 
 
@@ -376,6 +376,8 @@ justify-content: center;
     justify-content: center;
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 35px;
+    font-weight: 700;
 }
 
 
@@ -481,6 +483,7 @@ height: auto;
     flex-wrap: wrap;
     justify-content: center;
     background-size: cover;
+    
 }
 
 
@@ -563,6 +566,9 @@ height: auto;
 }
 
 
+.svg-daun{
+    width: 100%;
+}
 
 
 .text-header{
@@ -662,3 +668,81 @@ display: flex;
 
 
 }
+
+
+
+.slick-dots li button:before{
+   font-size: 14px !important; 
+   margin-top: 15px;
+   color: $blue !important;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .tabs-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: flex-start;
+        gap: 16px;
+    }
+
+
+    .tabs-links{
+        list-style: none;
+  display: flex;
+flex-direction: column;
+width: max-content;
+text-align: end;
+padding-top: 30px;
+margin-top: 15px;
+padding-right: 60px;
+gap: 16px;
+border-right: 4px solid black;
+
+
+a{
+    
+    text-wrap: nowrap;
+
+    border-color: rgb(157, 57, 57);
+}
+    }
+
+.ui-state-active a{
+border-color: aqua;
+}
+
+    .ui-tabs-panel{
+        width: 100%;
+        padding-left: 60px;
+        padding-top: 4px;
+        max-height: 150px;
+        align-items: center;
+    }
+
+
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }

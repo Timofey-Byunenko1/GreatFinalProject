@@ -275,6 +275,10 @@ p {
   margin-bottom: 30px;
 }
 
+.svg-width {
+  width: 100%;
+}
+
 .btn-main {
   width: 211px;
   height: 56px;
