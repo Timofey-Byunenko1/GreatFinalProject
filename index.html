@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta property="og:description" content="We turn over the idea of legal services" />
+   <meta property="og:image" content="./images/hillel.png"/>
 <link rel="stylesheet" href="./style/style.css">
 <link rel="stylesheet" href="./style/main.css">
 <link rel="stylesheet" href="./style/fonts.css">
@@ -10,7 +12,7 @@
 <link rel="stylesheet" media="screen and (min-width: 1700px) and (max-width: 1996px)" href="./style/dekstop-hd.css">  
 <link rel="stylesheet"media="screen and (min-width: 769px) and (max-width: 1200px)" href="./style/tablet.css">
 <link rel="stylesheet" media="screen and (min-width: 300px) and (max-width: 600px)" href="./style/minimobile.css">
-
+<link rel="icon" type="images" sizes="16x16px" href="./images/Symbol.png">
 
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
@@ -24,7 +26,7 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
     />
-<title>Document</title>
+<title>Hlegal</title>
 </head>
 <body>
 <section class="Homepage">
@@ -52,7 +54,7 @@
 </div>
 </div>
 
-<div class="homapage-app_right">
+<div class="homapage-app_right  animate__animated animate__backInRight">
 
 
 <header class="mobile-burger">
@@ -165,7 +167,7 @@
 
 
 <div class="page_knopka">
-<svg width="42px" heigth="35px">
+<svg class="svg-height" width="42px" heigth="35px">
 
 <use xlink:href="./sprite.svg#knopka"/>
 
@@ -176,35 +178,33 @@
 <section class="homepage-main_main">
 
 
-<div class="main-left">
 
-<h1><li class="main-left-h1">Consistent</li></h1>
-
-<h1><li class="main-left-h1">Customer oriented</li></h1>
-
-<h1><li class="main-left-h1">Innovative</li></h1>
-
-<h1><li class="main-left-h1">Business oriented</li></h1>
-
-</div>
-
-<div>
-
-<svg width="65px" >
-    <use xlink:href="./sprite.svg#stina"/>
-</svg>
-
-</div>
-
-<div class="main-right">
-
+  <div class="container"> 
+   <div id="tabs" class="tabs-wrapper">
+  <ul class="tabs-links">
+   <li><a class="main-left-h1" href="#tabs-1">Consistent</a></li>
+   <li><a class="main-left-h1"  href="#tabs-2">Customer oriented</a></li>
+   <li><a class="main-left-h1"  href="#tabs-3">Innovative</a></li>
+   <li><a class="main-left-h1" href="#tabs-4">Business oriented</a></li>
+  </ul>
+  <div id="tabs-1">
+    <h2 class="main-right-h1">We turn the idea of legal services</h2>
+    <p class="main-right-p">registration of permit and other mandatory documentation required for carrying out activities in the port (emission permit, conclusion on EIA, RTC, etc.);</p>
+  </div>
+  <div id="tabs-2">
+    <h2 class="main-right-h1">We turn the idea of legal services</h2>
+    <p class="main-right-p">Consolidating many years of experience and practice, the company's lawyers accompany complex projects and achieve a number of important decisions for the industry. Many of them form the practice of applying the law of the sea in Ukraine.</p>
+  </div>
+  <div id="tabs-3">
+    <h2 class="main-right-h1">We turn the idea of legal services</h2>
+    <p class="main-right-p">The historically unchanged legal profession has begun to reformat in recent years. Clients are feeling this, but law firms are still resisting evolution. Clients need convenience, simplicity, transparent payment. Google, IBM WatsOn, Symantec Clearwell prove that the technological revolution in legal services has begun and is imminent.</p>
+  </div>
+  <div id="tabs-4">
 <h2 class="main-right-h1">We turn the idea of legal services</h2>
-
-<p class="main-right-p">Consolidating many years of experience and practice, the company's lawyers accompany complex projects and achieve a number of important decisions for the industry. Many of them form the practice of applying the law of the sea in Ukraine.</p>
-
+<p class="main-right-p">Consolidating many years of experience and practice, the company's lawyers accompany complex  projects and achieve a number of  important decisions for the industry.</p>
+  </div>
 </div>
-
-
+</div>
 
 
 
@@ -488,7 +488,7 @@
 
 </div>
 
- 
+
 </section>
 
 </section>
@@ -538,6 +538,14 @@ const myPopup = new Popup({
         });
     });
     </script>
+
+<script src="https://code.jquery.com/ui/1.14.0/jquery-ui.min.js" integrity="sha256-Fb0zP4jE3JHqu+IBB9YktLcSjI1Zc6J2b6gTjB0LpoM=" crossorigin="anonymous"></script>
+<script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+</script>
+
 
 
 </body>
