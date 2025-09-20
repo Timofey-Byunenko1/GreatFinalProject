@@ -5,6 +5,12 @@
   .right-h4 {
     display: none;
   }
+  .homapage-app {
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    flex-direction: column-reverse;
+  }
   .svg-fase {
     display: none;
   }
@@ -21,7 +27,7 @@
   }
   .logo {
     width: 180px;
-    position: relative;
+    position: absolute;
   }
   .homepage-main_main {
     flex-direction: column;
@@ -96,6 +102,14 @@
     position: relative;
   }
 }
+.svg {
+  display: none;
+}
+
+.burger-icon {
+  display: none;
+}
+
 .mobile-burger {
   display: flex;
   flex-direction: row;
