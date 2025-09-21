@@ -200,7 +200,20 @@ display: none;
     background: #323264;
 }
 
+.tabs-wrapper{
+    flex-direction: column;
+}
 
+
+
+.tabs-links{
+border-right: 0px;
+ border-bottom: 4px solid #B3B3BA;
+}
+
+.ui-tabs-panel{
+    height: 150px;
+}
 
 .wraper{
     flex-direction: column;
@@ -215,4 +228,17 @@ display: none;
 
 .container{
     width: 100%;
+}
+
+.top-nav{
+    display: flex;
+}
+
+.div-publication{
+    text-align: left;
+    width: 85%;
+}
+
+.homapage-main_daun{
+    padding: 10px 20px;
 }
