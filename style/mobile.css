@@ -3,14 +3,16 @@
     width: 250px !important;
   }
   .homapage-app {
-    display: inline;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column-reverse;
   }
   .ul-homapage {
     display: none;
   }
   .logo {
     margin-left: 35px;
-    margin-top: 35px;
+    margin-top: 5px;
     height: 80px;
   }
   .homapage-app_right {
@@ -74,9 +76,6 @@
   }
   .div-header-daun {
     margin-right: 280px;
-  }
-  .navigation {
-    display: none;
   }
 }
 .mobile-burger {
@@ -142,6 +141,29 @@
 
 .wraper {
   flex-direction: column;
+}
+
+.tabs-wrapper {
+  flex-direction: column;
+}
+
+.tabs-links {
+  padding-bottom: 30px;
+  border-bottom: 4px solid #B3B3BA;
+  flex-direction: row;
+  width: 100%;
+}
+
+.ui-tabs-panel {
+  margin-bottom: 50px;
+}
+
+.top-nav {
+  display: none;
+}
+
+.svg {
+  display: none;
 }
 
 /*# sourceMappingURL=mobile.css.map */

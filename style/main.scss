@@ -756,7 +756,7 @@ border-color: aqua;
  @import url(https://fonts.googleapis.com/css?family=Raleway);
 h2 {
   vertical-align: center;
-  text-align: center;
+
 }
 
 
@@ -765,7 +765,7 @@ h2 {
 
 .top-nav {
     position: sticky;
-  display: flex;
+  display: none;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;

@@ -585,7 +585,7 @@ h2 {
 
 .top-nav {
   position: sticky;
-  display: flex;
+  display: none;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
