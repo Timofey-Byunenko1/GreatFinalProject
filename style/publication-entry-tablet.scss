@@ -1,0 +1,77 @@
+.gpp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1100px) {
+
+
+.logo{
+    width: 460px;
+    margin-right: 0px;
+}
+
+.section-alef{
+    width: 904px;
+    padding: 0 60px;
+}
+
+.div-main{
+    width: 904px;
+}
+
+.div_header{
+    width: 904px;
+}
+
+.div_main{
+    width: 904px;
+}
+
+.div-footer{
+    width: 904px;
+}
+
+.img-width{
+    width: 904px;
+}
+
+.div-publication{
+    margin-right: 450px;
+}
+
+.section-daun_daun{
+    width: max-content;
+}
+
+.svg-width{
+    width: 100%;
+}
+
+.div-daun_alex{
+    width: 281px;
+    height: 556px;
+}
+
+.alex-img{
+    width: 281px;
+}
+
+.alex-img-tri{
+    width: 281px;
+}
+
+.div-daun_alex-tri{
+    width: 281px;
+    height: 556px;
+}
+
+.text-header{
+    margin-right: 390px;
+}
+
+.div-header-daun{
+    margin-right: 600px;
+}
+ }
