@@ -4,39 +4,47 @@
   padding: 0;
   border: none;
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
   font-size: 38px;
   line-height: 46px;
+  font-family: "Montserrat", sans-serif;
 }
 
 h2 {
   font-size: 30px;
   line-height: 36px;
+  font-family: "Montserrat", sans-serif;
 }
 
 h3 {
   font-size: 22px;
   line-height: 26px;
+  font-family: "Montserrat", sans-serif;
 }
 
 h4 {
   font-size: 16px;
   line-height: 24px;
+  font-family: "Montserrat", sans-serif;
 }
 
 h5 {
   font-size: 14px;
   line-height: 18px;
+  font-family: "Montserrat", sans-serif;
 }
 
 p {
   font-size: 16px;
   line-height: 26px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .link {
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   list-style: none;
   line-height: 20px;
@@ -146,7 +154,7 @@ p {
 }
 
 .h1iii {
-  font-family: "Montserrat";
+  font-family: Montserrat;
   text-align: center;
   color: #FFFFFF;
   margin-top: 95px;
@@ -186,7 +194,7 @@ p {
 }
 
 .main-left-h1 {
-  font-family: "Montserrat";
+  font-family: Montserrat;
   color: #B3B3BA;
   margin-top: 10px;
   text-align: right;
@@ -197,7 +205,7 @@ p {
 }
 
 .main-right-h1 {
-  font-family: "Montserrat";
+  font-family: Montserrat;
   color: #FFFFFF;
   margin-top: 40px;
 }
@@ -222,7 +230,7 @@ p {
 }
 
 .homa-main-daun-h {
-  font-family: "Montserrat";
+  font-family: Montserrat;
   color: #F0145A;
   margin-top: 10px;
 }

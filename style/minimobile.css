@@ -169,6 +169,8 @@
 
 .tabs-wrapper {
   flex-direction: column;
+  overflow: auto;
+  padding: 30px;
 }
 
 .tabs-links {
@@ -203,6 +205,12 @@
 
 .homapage-main_daun {
   padding: 10px 20px;
+}
+
+.tabs-links {
+  flex-direction: row;
+  overflow-x: auto;
+  list-style: none;
 }
 
 /*# sourceMappingURL=minimobile.css.map */

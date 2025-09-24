@@ -183,6 +183,9 @@ display: none;
 
 .tabs-wrapper{
     flex-direction: column;
+    overflow: auto;
+    padding: 30px;
+    max-width: 60%;
 }
 
 .tabs-links{
