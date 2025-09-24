@@ -226,7 +226,7 @@ p {
 }
 
 .hom-a {
-  margin-right: 480px;
+  margin-right: 600px;
 }
 
 .homa-main-daun-h {
@@ -239,7 +239,7 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-right: 680px;
+  margin-right: 530px;
 }
 
 .main-daun-h {
@@ -292,7 +292,7 @@ p {
 
 .img-width {
   width: 400px;
-  height: 300px;
+  height: 320px;
 }
 
 .color {
@@ -443,11 +443,12 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-right: 900px;
+  margin-right: 820px;
+  margin-bottom: 15px;
 }
 
 .text-width {
-  margin-right: 300px;
+  margin-right: 380px;
 }
 
 .div-flex {

@@ -274,7 +274,7 @@ justify-content: space-between;
 }
 
 .hom-a{
-    margin-right: 480px;
+    margin-right: 600px;
 }
 
 .homa-main-daun-h{
@@ -288,7 +288,7 @@ justify-content: space-between;
     @include flex-mixin;
     flex-direction: column;
     text-align: center;
-    margin-right: 680px;
+    margin-right: 530px;
 }
 
 
@@ -355,7 +355,7 @@ justify-content: center;
 
 .img-width{
   width: 400px;
-    height: 300px;
+    height: 320px;
 }
 
 
@@ -555,13 +555,13 @@ height: auto;
     @include flex-mixin;
     flex-direction: column;
     text-align: center;
-    margin-right: 900px;
-    
+    margin-right: 820px;
+    margin-bottom: 15px;
 }
 
 
 .text-width{
-    margin-right: 300px;
+    margin-right: 380px;
 }
 
 .div-flex{
