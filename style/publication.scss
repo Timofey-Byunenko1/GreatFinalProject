@@ -5,27 +5,32 @@
     padding: 0;
     border: none;
     text-decoration: none;
+
 }
 
 
 h1{
     font-size: 38px;
     line-height: 46px;
+     font-family: "Montserrat", sans-serif;
 }
 
 h2{
     font-size: 30px;
     line-height: 36px;
+     font-family: "Montserrat", sans-serif;
 }
 
 h3{
     font-size: 22px;
     line-height: 26px;
+     font-family: "Montserrat", sans-serif;
 }
 
 h4{
     font-size: 16px;
     line-height: 24px;
+        
 }
 
 h5{
@@ -37,10 +42,13 @@ h5{
 p{
     font-size: 16px;
     line-height: 26px;
+         font-family: "Montserrat", sans-serif;
 }
 
 
 .link{
+     font-family: "Montserrat", sans-serif;
+     font-weight: 700;
     font-size: 16px;
     list-style: none;
     line-height: 20px;
