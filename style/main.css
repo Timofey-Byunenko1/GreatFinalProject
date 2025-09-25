@@ -98,6 +98,13 @@ p {
   font-weight: 400;
 }
 
+.number {
+  font-family: "Montserrat";
+  color: #FFFFFF;
+  margin: 5px;
+  font-weight: 400;
+}
+
 .navigation {
   display: flex;
   flex-wrap: wrap;
@@ -195,12 +202,14 @@ p {
 
 .main-left-h1 {
   font-family: Montserrat;
+  transition: 1s;
   color: #B3B3BA;
   margin-top: 10px;
   text-align: right;
   list-style: none;
 }
 .main-left-h1:hover {
+  transition: 1s;
   color: #F0145A;
 }
 
