@@ -290,7 +290,8 @@ p {
 
 .svg-plant {
   width: 98%;
-  height: 50px;
+  height: 5px;
+  margin-bottom: 70px;
 }
 
 .h1-daun {
@@ -478,6 +479,7 @@ p {
 
 .svg-plant {
   width: 100%;
+  border-bottom: 6px solid #F5F5FA;
 }
 
 .pading {
