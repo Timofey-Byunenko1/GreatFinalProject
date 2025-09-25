@@ -136,6 +136,15 @@ p {
   object-fit: contain;
 }
 
+.a-svg {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.a-svg:hover {
+  transition: 1s;
+  background-color: #F0145A;
+}
+
 .ul-homapage {
   display: flex;
   justify-content: flex-end;
@@ -171,6 +180,7 @@ p {
   display: flex;
   justify-content: center;
   margin-top: 380px;
+  margin-bottom: 60px;
 }
 
 .homepage-main_main {
@@ -226,7 +236,7 @@ p {
 }
 
 .svg-height {
-  height: 70px;
+  height: 50px;
 }
 
 .homapage-main_daun {

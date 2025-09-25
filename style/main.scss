@@ -161,6 +161,17 @@ justify-content: space-between;
 }
 
 
+.a-svg{
+    color: $white;
+    cursor: pointer;
+
+      &:hover{
+         transition: 1s;
+        background-color: $Accent;  
+    } 
+}
+
+
 .ul-homapage{
     @include flex-mixin;
     justify-content: flex-end;
@@ -209,6 +220,7 @@ justify-content: space-between;
   @include flex-mixin;
   justify-content: center;
   margin-top: 380px;
+  margin-bottom: 60px
 }
 
 
@@ -272,7 +284,8 @@ transition: 1s;
 }
 
 .svg-height{
-    height: 70px;
+    height: 50px;
+   
 }
 
 .homapage-main_daun{

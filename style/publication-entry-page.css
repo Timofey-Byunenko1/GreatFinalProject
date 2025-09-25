@@ -6,36 +6,43 @@
 }
 
 h1 {
+  font-family: "Montserrat";
   font-size: 38px;
   line-height: 46px;
 }
 
 h2 {
+  font-family: "Montserrat";
   font-size: 30px;
   line-height: 36px;
 }
 
 h3 {
+  font-family: "Montserrat";
   font-size: 22px;
   line-height: 26px;
 }
 
 h4 {
+  font-family: "Montserrat";
   font-size: 16px;
   line-height: 24px;
 }
 
 h5 {
+  font-family: "Montserrat";
   font-size: 14px;
   line-height: 18px;
 }
 
 p {
+  font-family: "Montserrat";
   font-size: 16px;
   line-height: 26px;
 }
 
 .link {
+  font-family: "Montserrat";
   font-size: 16px;
   list-style: none;
   line-height: 20px;
@@ -91,6 +98,13 @@ p {
   font-weight: 900;
 }
 
+.number {
+  color: #B3B3BA;
+  margin: 5px;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+
 .navigation {
   display: flex;
   flex-wrap: wrap;
@@ -119,6 +133,7 @@ p {
 }
 
 .li {
+  font-family: "Montserrat";
   justify-content: space-between;
   margin-left: 20px;
   font-weight: 700;
@@ -133,6 +148,7 @@ p {
 }
 
 .li:hover {
+  transition: 1s;
   border-color: #F0145A;
   color: #F0145A;
 }
@@ -330,7 +346,7 @@ span {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-right: 900px;
+  margin-right: 830px;
 }
 
 .text-width {
